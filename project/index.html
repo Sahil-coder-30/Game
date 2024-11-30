@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Pro - Financial Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-options">
+                <ul>
+                    <li class="options"><a href="#sec-1"><i class="fas fa-home"></i> Home</a></li>
+                    <li class="options"><a href="#sec-2"><i class="fas fa-box"></i> Products</a></li>
+                    <li class="options"><a href="#sec-2"><i class="fas fa-cogs"></i> Services</a></li>
+                    <li class="options"><a href="#sec-3"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="sec-1" class="section-1"></div>
+
+        <div class="main set">
+            <div class="sec-1-text">
+                <h1><i class="fas fa-chart-line"></i> Empowering Your Financial Journey</h1>
+                <p>Navigate your financial future with confidence. Our platform provides the tools and insights you need to make informed decisions and achieve your financial goals.</p>
+            </div>
+        </div>
+
+        <div id="sec-2" class="section-2 set">
+            <div class="sec-2-area">
+                <div class="flash-box">
+                    <img src="tax.png" alt="Tax Calculator">
+                    <p><i class="fas fa-calculator"></i> Tax Calculator</p>
+                    <h2>"Get accurate tax estimates and professional guidance for your financial planning."</h2>
+                    <button onclick="window.location.href='tax_calculate.html';"><i class="fas fa-arrow-right"></i> Learn More</button>
+                </div>
+                <div class="flash-box">
+                    <img src="expense.jpg" alt="Track Your Budget">
+                    <p><i class="fas fa-wallet"></i> Budget Tracker</p>
+                    <h2>"Take control of your spending with our intuitive budget management tools."</h2>
+                    <button onclick="window.location.href='exptrack.html';"><i class="fas fa-arrow-right"></i> Start Now</button>
+                </div>
+                <div class="flash-box">
+                    <img src="blog.jpeg" alt="Finance Blog">
+                    <p><i class="fas fa-blog"></i> Finance Blog</p>
+                    <h2>"Stay informed with the latest financial insights and expert advice."</h2>
+<button onclick="window.location.href='http://127.0.0.1:3000/blog/index.html';"><i class="fas fa-arrow-right"></i> Read More</button>
+                </div>
+                <div class="flash-box">
+                    <img src="chatbot.png" alt="Chat Bot">
+                    <p><i class="fas fa-robot"></i> AI Assistant</p>
+                    <h2>"Get instant answers to your financial questions, 24/7."</h2>
+                    <button onclick="window.location.href='chatbot.html';"><i class="fas fa-arrow-right"></i> Chat Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="sec-4" class="section-4 set">
+            <h3><i class="fas fa-quote-left"></i> Client Testimonials</h3>
+            <div class="testimonial">
+                <p>"The financial tools provided here have completely transformed how I manage my money. The interface is intuitive, and the guidance is invaluable!" - Sarah Johnson</p>
+            </div>
+            <div class="testimonial">
+                <p>"As a small business owner, the tax calculator and budget tracking features have saved me countless hours. Highly recommended!" - Michael Chen</p>
+            </div>
+        </div>
+
+        <div id="sec-5" class="section-5 set">
+            <h3><i class="fas fa-question-circle"></i> Frequently Asked Questions</h3>
+            <div class="faq">
+                <h4><i class="fas fa-calculator"></i> How accurate is the tax calculator?</h4>
+                <p>Our tax calculator provides estimates based on current tax regulations and your input. While highly accurate, we recommend consulting with a tax professional for final decisions.</p>
+            </div>
+            <div class="faq">
+                <h4><i class="fas fa-shield-alt"></i> Is my financial data secure?</h4>
+                <p>Yes, we employ bank-level encryption and security measures to protect all your financial information.</p>
+            </div>
+        </div>
+
+        <div id="sec-3" class="section-3 set">
+            <footer id="contact">
+                <h3><i class="fas fa-paper-plane"></i> Get In Touch</h3>
+                <form onsubmit="return validateForm()">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5"></textarea>
+                    <button type="submit">Send Message <i class="fas fa-arrow-right"></i></button>
+                </form>
+                <p><i class="fas fa-envelope"></i> Email: contact@financepro.com | <i class="fas fa-phone"></i> Phone: 123-456-7890</p>
+            </footer>
+        </div>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
